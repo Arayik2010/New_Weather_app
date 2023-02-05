@@ -1,0 +1,17 @@
+.celsius {
+  display: flex;
+  justify-content: center;
+}
+
+.fahrenheit {
+  display: flex;
+  justify-content: center;
+}
+
+.textsize {
+  @apply text-2xl;
+}
+
+.numbersize {
+  @apply text-3xl;
+}
