@@ -20,11 +20,6 @@ export const WeatherChartInfo = () => {
 
   return (
     <div>
-      <div className={styles.navcontainer}>
-        <Link className={styles.navbarlink} href="/">
-          Home
-        </Link>
-      </div>
       <div className={styles.weatherchart}>
         <div className={styles.weatherdata}>
           {weatherData.map((el: IProduct) => (

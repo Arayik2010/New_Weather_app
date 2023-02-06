@@ -1,29 +1,45 @@
 .main {
-  max-width: 1400px;
+
   width: 100%;
-  height: 655px;
+  height: 900px;
+  position: absolute;
  
  
 }
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #95a5a6;
+  
+}
+.logo{
+  
+  margin-left: 50px;
+  
+}
+
 
 .navigation {
   
-  width: 100%;
-  height: 35px;
+width: 15%;
   position: relative;
-  background-color: #95a5a6;
+  display: flex;
+  justify-content: space-between;
+ 
+  text-align: center;
+  
  
 
 }
 .navbarlink{
   text-decoration: none;
   color: white;
-  padding: 20px;
   transition-delay: 0.2s;
+  padding: 5px;
 }
 .navbarlink:hover {
   color: aquamarine;
   
 }
-.navbarlink:
 

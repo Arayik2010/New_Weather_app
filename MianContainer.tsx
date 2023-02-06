@@ -1,5 +1,5 @@
 import { Weather } from "./Components/Weather/Weather"
-import { Navigation } from "./pages/Navbar/Navbar"
+import  Navigation  from "./Components/Navbar/Navbar"
 
 
 export const MainContainer =() => {
