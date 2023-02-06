@@ -13,6 +13,9 @@ export default function Navigation() {
       <Link className={styles.navbarlink} href="/posts/about-post">
         About Us
       </Link>
+      <Link className={styles.navbarlink} href="/posts/shop-item">
+        Shop
+      </Link>
     </div>
   );
 };
