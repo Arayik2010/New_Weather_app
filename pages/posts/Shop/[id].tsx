@@ -19,21 +19,21 @@ export const getStaticPaths = async () => {
 
   const paths = propData.map((elem: ShopElem) => {
     return {
-      params: { id: elem.id }
+      params: { id: elem.id },
     };
   });
   return {
     paths,
-    fallback: false
+    fallback: false,
   };
 };
 
-export const getStaticProps = async (context:any) => {
+export const getStaticProps = async (context: any) => {
   const id = context.params.id;
   const res = await fetch(`http://localhost:5000/items/${id}`);
   const propData = await res.json();
   return {
-    props: { shopItem: propData }
+    props: { shopItem: propData },
   };
 };
 
@@ -41,19 +41,15 @@ export default function ShopItem({ shopItem }: ShopElemItem) {
   return (
     <div className={styles.shopitems}>
       <div className={styles.burgerCard}>
+        <h1>Our Product</h1>
         <div className={styles.imageContainer}>
           <Image src={shopItem.image} width={200} height={200} alt="burger" />
         </div>
         <div>
-          <h3>
-            {shopItem.name}
-          </h3>
-          <p>
-            {shopItem.desc}
-          </p>
+          <h3>{shopItem.name}</h3>
+          <p>{shopItem.desc}</p>
         </div>
       </div>
-
     </div>
   );
 }
