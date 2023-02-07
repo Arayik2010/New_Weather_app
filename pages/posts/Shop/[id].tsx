@@ -41,6 +41,7 @@ export default function ShopItem({ shopItem }: ShopElemItem) {
   return (
     <div className={styles.shopitems}>
       <div className={styles.burgerCard}>
+        <h1>hello</h1>
         <div className={styles.imageContainer}>
           <Image src={shopItem.image} width={200} height={200} alt="burger" />
         </div>
