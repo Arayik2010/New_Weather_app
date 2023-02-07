@@ -13,7 +13,7 @@ export default function Navigation() {
       <Link className={styles.navbarlink} href="/posts/about-post">
         About Us
       </Link>
-      <Link className={styles.navbarlink} href="/posts/shop-item">
+      <Link className={styles.navbarlink} href="/posts/Shop/shop-items">
         Shop
       </Link>
     </div>

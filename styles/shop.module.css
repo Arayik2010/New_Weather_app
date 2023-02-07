@@ -1,0 +1,64 @@
+
+.shopitems{
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    border: 1px solid silver;
+ 
+    position: relative;
+}
+
+.itemcontainer{
+
+    width: 70%;
+    height: 470px;
+    margin-top: 100px;
+  
+}
+
+/* .items{
+    width: 100%;
+    margin-top: 7px;
+    height: 150px;
+    display: flex;
+    background-color: yellow;
+    border: 1px solid silver;
+}
+
+.imgitem{
+    width: 20%;
+    height: 135px;
+    background-color: red;
+    margin: auto;
+}
+.text{
+    
+    width: 70% ;
+    margin-left:30px;
+    text-align: center;
+    background-color: green ;
+} */ 
+
+.imageContainer {
+    max-width: 150px;
+  }
+  .burgerCard {
+    color: #2E2E2E;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.043) 0px 0px 5px 3px;
+  }
+  .burgerCard h3 {
+    margin-top: 0;
+  }
+  .singleBurger {
+    max-width: 600px;
+    display: flex;
+  }
